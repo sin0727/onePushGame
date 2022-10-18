@@ -35,7 +35,7 @@ void Stage::Draw() {
 }
 
 //ブロック初期化
-void Stage::Block_Ini(Ract* b) //ポインタ取得
+void Stage::Block_Ini(Ract* b) //ポインタ取得aa
 {
 	b->x = 0;   //x座標　　　　//参照渡し
 	b->y = 0;   //y座標
