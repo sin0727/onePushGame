@@ -2,8 +2,9 @@
 #include "Stage.h"
 #include "InputDevice.h.h"
 #include "Resource.h"
-//#include "Particle.h"
 #include "Scene.h"
+
+//#include "Particle.h"
 
 
 const char kWindowTitle[] = "学籍番号";

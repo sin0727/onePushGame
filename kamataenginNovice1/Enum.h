@@ -2,12 +2,12 @@
 
 // ウィンドウの大きさとポジション
 enum class WindowSize {
-	WIN_MAX_X = 1440,
-	WIN_MAX_Y = 900,
+	WIN_MAX_X = 960,
+	WIN_MAX_Y = 640,
 	WIN_POS_X = 0,
 	WIN_POS_Y = 0,
-	POS_MAX_X = 1440,
-	POS_MAX_Y = 900,
+	POS_MAX_X = 960,
+	POS_MAX_Y = 640,
 };
 
 // チップサイズと最大数

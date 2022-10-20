@@ -1,6 +1,7 @@
 #include "Resource.h"
 #include "Novice.h"
 
+
 /* ‰Šú‰» */
 int Image::makeblock = 0;
 int Image::notmoveblock = 0;

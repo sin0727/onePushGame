@@ -1,6 +1,8 @@
 #include "InputDevice.h.h"
 #include <Novice.h>
 
+
+
 /* ‰Šú‰» */
 char Keyboard::keys[] = {};
 char Keyboard::pre_Keys[] = {};
