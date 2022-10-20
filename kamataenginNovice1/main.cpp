@@ -1,7 +1,7 @@
 ﻿#include <Novice.h>
-#include "Stage.h"
+//#include "Stage.h"
 #include "InputDevice.h.h"
-#include "Resource.h"
+//#include "Resource.h"
 #include "Scene.h"
 
 //#include "Particle.h"

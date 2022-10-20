@@ -6,7 +6,7 @@
 class Scene {
 public:
 	int scene = (int)SceneType::title;	// シーンの種類
-	Stage* stage = new Stage;	// ステージのインスタンス化
+	/*Stage* stage = new Stage;*/	// ステージのインスタンス化
 	int animation_index1 = 0;
 	int animation_index2 = 0;
 	int frame = 0;

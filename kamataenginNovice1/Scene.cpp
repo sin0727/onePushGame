@@ -7,7 +7,7 @@ Scene::Scene() {
 
 }
 Scene::~Scene() {
-	if (stage != nullptr) delete stage;
+	/*if (stage != nullptr) delete stage;*/
 }
 
 int sinn = 1;
@@ -22,10 +22,10 @@ void Scene::Update() {
 		UpdateMenu();
 		break;
 	case (int)SceneType::game:
-		switch (stage->selctStage)
+		switch (/*stage->selctStage*/1)
 		{
 		case (int)StageType::tutorial1:
-			stage->Updatetyutorial();
+			/*stage->Updatetyutorial();*/
 			break;
 		case (int)StageType::game_stage1:
 			/*stage->Update();*/
@@ -38,10 +38,6 @@ void Scene::Update() {
 			break;
 		}
 		break;
-
-		
-		
-	
 
 		/*case (int)SceneType::goal:
 			Updatecrear();*/
@@ -62,14 +58,14 @@ void Scene::Draw() {
 		DrawMenu();
 		break;
 	case (int)SceneType::game:
-		switch (stage->selctStage)
+		switch (/*stage->selctStage*/1)
 		{
 		case (int)StageType::tutorial1:
-			stage->Draw();
+			/*stage->Draw();*/
 		
 			break;
 		case (int)StageType::game_stage1:
-			stage->Draw();
+			/*stage->Draw();*/
 			break;
 		}
 
@@ -116,7 +112,7 @@ void Scene::UpdateMenu() {
 		if (Keyboard::pre_Keys[DIK_SPACE] == 0 && Keyboard::keys[DIK_SPACE] != 0)
 		{
 			scene = (int)SceneType::game;
-			stage->selctStage = 0;
+			/*stage->selctStage = 0;*/
 		}
 		break;
 
@@ -124,7 +120,7 @@ void Scene::UpdateMenu() {
 		if (Keyboard::pre_Keys[DIK_SPACE] == 0 && Keyboard::keys[DIK_SPACE] != 0)
 		{
 			scene = (int)SceneType::game;
-			stage->selctStage = 1;
+			/*stage->selctStage = 1;*/
 		}
 		break;
 	}
